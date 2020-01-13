@@ -1,0 +1,18 @@
+#product-form {
+    text-align: center;
+}
+
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-card.mdl-card {
+  width: 320px;
+  height: 320px;
+  margin: 15px;
+}
+.product-card > .mdl-card__title {
+  color: #fff;
+  background: #46B6AC;
+}
