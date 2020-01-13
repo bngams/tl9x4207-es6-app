@@ -14,6 +14,8 @@
     "lite-server": "^2.5.4"
   },
   "dependencies": {
-    "material-design-lite": "^1.3.0"
+    "material-design-lite": "^1.3.0",
+    "systemjs": "^6.1.9",
+    "systemjs-transform-babel": "^0.1.2"
   }
 }
