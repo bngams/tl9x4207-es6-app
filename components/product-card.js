@@ -30,4 +30,14 @@ export class ProductCard extends AppComponent {
     display() {
         this.innerHTML = TEMPLATE;
     }
+
+    bindElements() {
+        this.productName = this.querySelector('.product-name');
+        this.productPrice = this.querySelector('.product-price');
+    }
+
+    onReady() {
+        this.productName.innerHTML = this.product.name;
+        this.productPrice.innerHTML = this.product.price;
+    }
 }
