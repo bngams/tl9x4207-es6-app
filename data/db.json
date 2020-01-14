@@ -1,0 +1,19 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "MacBookPro",
+            "price": 3000
+        },
+        {
+            "id": 2,
+            "name": "Surface Pro",
+            "price": 2000
+        },
+        {
+            "id": 3,
+            "name": "Custom",
+            "price": 1000
+        }
+    ]
+}
